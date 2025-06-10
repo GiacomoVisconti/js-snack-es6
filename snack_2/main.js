@@ -52,7 +52,7 @@ for (let i = 0; i < tabellone_campionato.length; i++) {
     const element = tabellone_campionato[i];
 
     //Popolo le chiavi falli e punti
-    element.falli_subiti = random_numb(50,90);
+    element.falli_subiti = random_numb(20,50);
     element.punti_fatti = random_numb(50,90);
 
     //riempio la matrice quadrata con gli elementi estraendoli dall'array di oggetti
